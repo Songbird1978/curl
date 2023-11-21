@@ -1,0 +1,37 @@
+@import-normalise;
+
+
+@font-face {
+  font-family: 'caslonTitling';
+  src: local('caslonTitling'), url(./fonts/CaslonTitlingMTW01.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  src: local('Gotham-Book'), url(./fonts/Gotham-Book.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src: local('Gotham-Light'), url(./fonts/Gotham-Light.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: local('Gotham-Medium'), url(./fonts/Gotham-Medium.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham-Thin';
+  src: local('Gotham-Thin'), url(./fonts/Gotham-Thin.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'Gotham-Ultra';
+  src: local('Gotham-Ultra'), url(./fonts/Gotham-Ultra.otf) format('opentype');
+}
+
+@font-face {
+  font-family: 'europa-bold-webfont';
+  src: local('europe-bold-webfont'), url(./fonts/europa-bold-webfont.ttf) format('truetype');
+}

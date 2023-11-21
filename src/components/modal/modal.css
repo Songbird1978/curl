@@ -1,0 +1,53 @@
+.modal {
+   
+    width: clamp(50%, 700px, 90%);
+    height: min (50%, 300px);
+    justify-content: left;
+  
+    background-color: #467367;
+    border-style: solid;
+    border-radius: 12px;
+    border-color: salmon;
+    /*box-shadow: rgba(177, 232, 233, 0.4) -5px 5px, rgba(46, 237, 240, 0.3) -10px 10px, rgba(46, 227, 240, 0.2) -15px 15px, rgba(46, 240, 233, 0.1) -20px 20px, rgba(46, 217, 240, 0.05) -25px 25px;*/
+    opacity: 80%; 
+    height: auto;
+    margin: auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    font-family: 'Gotham-book';
+
+}
+
+.modalContent {
+    display: block;
+    justify-content: center;
+    align-items:start;
+    text-decoration: none;
+    color: white;
+    font-family: 'Gotham-book';
+    padding: 5px;
+
+}
+
+.musicPlayer {
+    border-style: none;
+}
+
+.closeButton {
+    border-style: solid;
+    border-color: salmon; 
+    border-radius: 12px;
+    color: white;
+    background-color: salmon;
+    padding: 20px;
+    font-size:large;
+}
+
+.linkInfo {
+
+    text-decoration: none;
+    color: salmon;
+}

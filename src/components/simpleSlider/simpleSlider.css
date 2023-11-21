@@ -1,0 +1,19 @@
+.LiveSlider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    opacity: 70%;
+
+}
+
+.slick-slide img {
+
+    height: 500px;
+    width: auto;
+
+}
+
+.sliderStyleDiv {
+    width: 100%;
+}

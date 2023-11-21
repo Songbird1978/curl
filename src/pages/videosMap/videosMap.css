@@ -1,0 +1,21 @@
+.videoContainer {
+    margin: 100;
+    padding: 5px;
+  
+}
+
+.videos {
+    padding: 50 !important;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+
+}
+
+.videoItem {
+    background-color: white;
+    border-style: solid 4px;
+    height: 400px;
+   
+}

@@ -1,0 +1,27 @@
+.title {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    font-size:x-large;
+}
+
+.paper {
+   
+    display: block;
+    justify-content: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    white-space: pre-line;
+}
+
+.Paragraph, .title {
+    font-family: 'europa-bold-webfont';
+    color: gray;
+    white-space: pre-line;
+    padding: 5%;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5rem;
+    text-size-adjust: none;
+}
+

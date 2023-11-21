@@ -1,0 +1,21 @@
+
+
+.containerConstruction {
+    position: flex;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin: 0;
+}
+
+.menatworkanimation {
+    display: flex;
+    justify-content: center;
+}
+
+.menatwork {
+    align-items: center;
+    max-width: 600px;
+    padding: 50px;
+    margin-top: 20px;
+}

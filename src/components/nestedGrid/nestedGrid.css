@@ -1,0 +1,40 @@
+
+
+
+
+
+
+.nestedGrid {
+    display: flex;
+}
+
+.topLeft, .topRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.midLeft {
+    display: flex; 
+    justify-content: right;
+    align-items: center;
+}
+
+.midRight {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.bottomLeft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottomRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

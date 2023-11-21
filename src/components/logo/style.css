@@ -1,0 +1,25 @@
+.logo {
+    display: flex;
+    justify-content: center;
+    background-color: none !important;
+    z-index: 2;
+    color: grey;
+    font-family: 'europa-bold-webfont';
+    font-size: 20px;
+    text-decoration: none;
+   
+   
+ 
+}
+
+.logoLink {
+    text-decoration: none;
+    color: salmon;
+    background-color: none;
+    text-shadow: -1px -2px 5px #3c2e2e;
+}
+
+.logoLink:hover {
+    color: white;
+    
+}

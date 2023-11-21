@@ -1,0 +1,13 @@
+
+.backdrop {
+    position: absolute !important;
+    margin-top: 0 !important;
+    margin-left: 0 !important;
+    height: 100%;
+    width: 100%;
+    background: #000000e4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 500;
+}

@@ -1,0 +1,35 @@
+.socialList {
+
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    float: right;
+    list-style: none;
+}
+
+.icon {
+
+    height: 23px;
+    color: salmon;
+    opacity: 80%;
+
+}
+
+.icon:hover {
+
+    color: white;
+
+}
+
+.containercontact {
+
+    background-color: transparent;
+    padding: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .socialList {
+        display: block;
+        justify-content: right;
+    }
+}

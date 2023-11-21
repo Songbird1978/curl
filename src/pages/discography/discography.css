@@ -1,0 +1,42 @@
+
+.discContainer {
+    position: absolute;
+    z-index: -1;
+ 
+}
+
+.MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 discContainer css-a5rdam-MuiGrid-root {
+
+position: absolute;
+margin-top: 10px !important;
+
+}
+
+.products {
+   
+   display: flex;
+   justify-content: space-around;
+    border-style: solid;
+    border-color: red;
+    
+}
+
+.imageProduct {
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+}
+
+.saveButton {
+   
+    height: 100px;
+    padding: 60px;
+    border-style: none;
+    background-color: transparent;
+   
+}
+
+.css-mhc70k-MuiGrid-root {
+
+    margin-top: -50px !important;
+}

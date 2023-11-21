@@ -1,0 +1,41 @@
+.heading {
+    display: block;
+    padding: 20px;
+    margin-top: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: x-large;
+    font-family: 'europa-bold-webfont';
+    color: white;
+
+}
+
+.mxnifesto {
+
+    display: block;
+    justify-content: center;
+    margin-left: 210px;
+    margin-right: 210px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #467367;
+    border-style: solid;
+    border-color: salmon;
+    /*box-shadow: rgba(177, 232, 233, 0.4) -5px 5px, rgba(46, 237, 240, 0.3) -10px 10px, rgba(46, 227, 240, 0.2) -15px 15px, rgba(46, 240, 233, 0.1) -20px 20px, rgba(46, 217, 240, 0.05) -25px 25px;*/
+    opacity: 80%;
+
+}
+
+.manifestoParagraph {
+    font-family: 'Gotham-Book';
+    color: white;
+    white-space: pre-line;
+    padding: 15;
+    margin: 25px;
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5rem;
+    font-size-adjust: 25px;
+   
+}
+
