@@ -1,8 +1,7 @@
 .galleryGrid {
     display: flex;
-    height: 100%;
     width: 100%;
-    justify-content: centre;
+    justify-content: center;
     align-items: center;
     margin-top: 50px;
     padding: 50px;
@@ -15,5 +14,7 @@
     align-items: center;
     margin-top: 50px;
     padding: 20px !important;
+    height: 500px;
+
 }
 
