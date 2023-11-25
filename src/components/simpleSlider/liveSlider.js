@@ -12,13 +12,12 @@ const LiveSlider = ({ sliderHeight }) => {
         dots: true,
         infinite: true,
         slidesToShow: 1,
-        variableWidth: false,
+        variableWidth: true,
         autoplay: true,  // Enable autoplay
         autoplaySpeed: 4000,
         centrePadding: '100px',
-        centreMode: true,
+        centreMode: false,
         slidesToScroll: 1,
-        centerMode: false,
         swipe: true,
         responsive: [
             {
