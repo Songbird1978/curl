@@ -2,13 +2,16 @@
 .discContainer {
     position: absolute;
     z-index: -1;
+    margin-bottom: 100px !important;
+  
+
  
 }
 
 .MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 discContainer css-a5rdam-MuiGrid-root {
 
 position: absolute;
-margin-top: 10px !important;
+margin-top: 100px !important;
 
 }
 
@@ -22,9 +25,14 @@ margin-top: 10px !important;
 }
 
 .imageProduct {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
     width: 300px;
     height: 300px;
     padding: 5px;
+    
 }
 
 .saveButton {

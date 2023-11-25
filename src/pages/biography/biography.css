@@ -6,7 +6,7 @@
     text-align: center;
     font-size: x-large;
     font-family: 'europa-bold-webfont';
-    color: white;
+    color: lightgray;
 
 }
 
@@ -14,10 +14,10 @@
 
     display: block;
     justify-content: center;
-    margin-left: 210px;
-    margin-right: 210px;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
     background-color: #467367;
     border-style: solid;
     border-color: salmon;
@@ -28,7 +28,7 @@
 
 .manifestoParagraph {
     font-family: 'Gotham-Book';
-    color: white;
+    color: lightgray;
     white-space: pre-line;
     padding: 15;
     margin: 25px;

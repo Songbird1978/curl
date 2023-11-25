@@ -2,10 +2,11 @@
 .icon { 
     color: grey;
     width: 40px;
+
 }
 
 .nav {
-    color: white;
+    color: lightgray;
     font-family: 'europa-bold-webfont';
     font-size: medium;
     margin-left: 50px !important;
@@ -25,7 +26,7 @@
 }
 
 link {
-    color: white;
+    color: lightgray;
 }
 
 link:hover {
