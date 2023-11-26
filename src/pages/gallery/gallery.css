@@ -1,25 +1,41 @@
 .galleryGrid {
-    display: flex;
-    width: 100%;
+    
     justify-content: center;
     align-items: center;
-    margin: 100px;
-    padding: 50px;
- 
+   margin-top: 100px;
+   opacity: 95%;
+   z-index: 5000;
+}
+
+.headingGallery {
+    position: absolute;
+    text-decoration: none;
+    color: grey;
+    font-size:125px;
+    
+    margin-left: 0px;
+    margin-top: 206px;
+    z-index: 5000;
+    
 }
 
 .buttonImage {
-    max-width: 100%;
+    width: 400px;
+    height: 350px;
+    border-style: solid;
+    border-color: rgba(250, 128, 114, 0.69);
+    object-fit: scale-down;
+   
+    z-index: -5000;
+    background-color: rgba(250, 128, 114, 0.69);
 }
 
 .galleryItem {
-    display: flex; 
+    position: relative; 
     justify-content: center;
     align-items: center;
-    margin-top: 50px;
-    padding: 20px !important;
-  
-   
-
+    margin-top: 100px;
+    padding: 15px !important;
+    
 }
 
