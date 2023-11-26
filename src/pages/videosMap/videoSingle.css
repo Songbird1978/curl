@@ -1,10 +1,8 @@
 .videoWrapper {
 
-
     border-style: solid ;
     border-color: salmon;
-   
     opacity: 80%;
-    height: 50vh;
+    height: 100vh;
 
 }

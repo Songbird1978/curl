@@ -16,6 +16,7 @@
 .videoItem {
     background-color: white;
     border-style: solid 4px;
-    height: 400px;
+    height: 500px;
+    border-radius: 12px;
    
 }
