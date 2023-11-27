@@ -3,39 +3,40 @@
     justify-content: center;
     align-items: center;
    margin-top: 100px;
-   opacity: 95%;
    z-index: 5000;
 }
 
 .headingGallery {
     position: absolute;
     text-decoration: none;
-    color: grey;
-    font-size:125px;
-    
-    margin-left: 0px;
-    margin-top: 206px;
-    z-index: 5000;
+    color: darkgray;
+    text-shadow: white;
+    font-size:20px;
+    border-radius: 20px 20px 0px 0px;
+    border-color: rgba(250, 128, 114, 0.69);
+    border-style: solid;
+    border-bottom: none;
+    background-color: #467367;
+    padding: 10px;
+    width: 250px;
+    height: 50px;
+    z-index: 6000;
     
 }
 
 .buttonImage {
-    width: 400px;
-    height: 350px;
+    width: 250px;
+    height: 400px;
     border-style: solid;
     border-color: rgba(250, 128, 114, 0.69);
     object-fit: scale-down;
-   
+    border-radius: 20px;
     z-index: -5000;
-    background-color: rgba(250, 128, 114, 0.69);
+    background-color: #467367;
 }
 
 .galleryItem {
     position: relative; 
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    padding: 15px !important;
-    
+  
 }
 

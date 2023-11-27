@@ -25,57 +25,57 @@ function Gallery() {
 
             <Grid container className="galleryGrid" sx={{ backgroundColor: 'transparent', display: 'flex' }}>
             
-                <Grid item className="galleryItem" xs={12}  sm={12} md={6}>
-                <motion.div whileHover={{ scale: 0.8 }}
+                <Grid item className="galleryItem" xs={12}  sm={6} md={3}>
+                <motion.button whileHover={{ scale: 0.8 }}
                 transition={{ ease: "easeOut" }}
                         whileTap={{ scale: 0.9 }}
                         animate={{ x: 100 }} 
                         initial={{ x: 0 }}>
                     <Link to={liveGallery} className="galleryLiveLink">
-                        <headingGallery className="headingGallery">Live</headingGallery>
+                        <div className="headingGallery">LIVE</div>
                         <img src={frenchTV} className="buttonImage" alt="live at the Black Box">
                         </img>
                     </Link>
-                    </motion.div>
+                    </motion.button>
                 </Grid>
              
 
-                <Grid item className="galleryItem" xs={12}  sm={12} md={6} >
+                <Grid item className="galleryItem" xs={12}  sm={6} md={3} >
                 <motion.div whileHover={{ scale: 0.8 }}
                 transition={{ ease: "easeOut" }}
                         whileTap={{ scale: 0.9 }}
                         animate={{ x: 100 }} 
                         initial={{ x: 0 }}>
                     <Link to={pressGallery} className="galleryLiveLink">
-                        <headingGallery className="headingGallery">Press</headingGallery>
+                        <div className="headingGallery">PRESS</div>
                         <img src={curlOne} className="buttonImage" alt="live at the Black Box">
                         </img>
                     </Link>
                     </motion.div>
                 </Grid>
 
-                <Grid item className="galleryItem" xs={12}  sm={12} md={6} sx={{}}>
+                <Grid item className="galleryItem" xs={12}  sm={6} md={3} sx={{}}>
                 <motion.div whileHover={{ scale: 0.8 }}
                 transition={{ ease: "easeOut" }}
                         whileTap={{ scale: 0.9 }}
                         animate={{ x: 100 }} 
                         initial={{ x: 0 }}>
                     <Link to={studioGallery} className="galleryLiveLink">
-                        <headingGallery className="headingGallery">Studio</headingGallery>
+                        <div className="headingGallery">STUDIO</div>
                         <img src={wilThree} className="buttonImage" alt="live at the Black Box">
                         </img>
                     </Link>
                     </motion.div>
                 </Grid>
 
-                <Grid item className="galleryItem" xs={12}  sm={12} md={6} sx={{}}>
+                <Grid item className="galleryItem" xs={12}  sm={6} md={3} sx={{}}>
                <motion.div whileHover={{ scale: 0.8 }}
                 transition={{ ease: "easeOut" }}
                         whileTap={{ scale: 0.9 }}
                         animate={{ x: 100 }} 
                         initial={{ x: 0 }}>
                     <Link to={chill} className="galleryLiveLink">
-                        <headingGallery className="headingGallery">Chill</headingGallery>
+                        <div className="headingGallery">CHILL</div>
                         <img src={boardsStill} className="buttonImage" alt="live at the Black Box">
                         </img>
                     </Link>

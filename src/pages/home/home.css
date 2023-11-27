@@ -1,5 +1,7 @@
 .homeTwoGrid {
     background-color: transparent !important;
+    width: 100% !important;
+    margin: 0px !important;
 }
 
 .gridContainer {

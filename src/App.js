@@ -10,10 +10,10 @@ import Discography from './pages/discography/discography';
 import Shows from './pages/shows/shows';
 import Articles from './pages/articles/articles';
 import Gallery from './pages/gallery/gallery';
-import Curious from './pages/articles/curious';
-import Biden from './pages/articles/biden';
-import Brexit from './pages/articles/brexit';
-import Digging from './pages/articles/digging';
+import LiveGallery from './pages/gallery/liveGallery';
+import PressGallery from './pages/gallery/pressGallery';
+import StudioGallery from './pages/gallery/studioGallery';
+import ChillGallery from './pages/gallery/behindTheScenes';
 import './App.css';
 import { AnimatePresence } from "framer-motion";
 
@@ -45,10 +45,10 @@ function App() {
             <Route path="/videosMap" element={<VideosMap />} />
             <Route path="/articles" element={<Articles />} />
             <Route path="/gallery" element={<Gallery />} />
-            <Route path=":id" element={<Curious />} />
-            <Route path=":id" element={<Brexit />} />
-            <Route path=":id" element={<Digging />} />
-            <Route path=":id" element={<Biden />} />
+            <Route path="/liveGallery" element={<LiveGallery />} />
+            <Route path="/pressGallery" element={<PressGallery />} />
+            <Route path="studioGallery" element={<StudioGallery />} />
+            <Route path="/behindTheScenes" element={<ChillGallery />} />
           </Routes>
 
       
