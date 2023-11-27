@@ -213,4 +213,6 @@ const LiveImages = [
         maxHeight: "400px",
     },
 
-]
+];
+
+export default LiveImages;

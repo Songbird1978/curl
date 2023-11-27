@@ -47,7 +47,7 @@ function App() {
             <Route path="/gallery" element={<Gallery />} />
             <Route path="/liveGallery" element={<LiveGallery />} />
             <Route path="/pressGallery" element={<PressGallery />} />
-            <Route path="studioGallery" element={<StudioGallery />} />
+            <Route path="/studioGallery" element={<StudioGallery />} />
             <Route path="/behindTheScenes" element={<ChillGallery />} />
           </Routes>
 
