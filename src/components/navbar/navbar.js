@@ -138,7 +138,7 @@ function Navbar() {
           </ListItem>
           <Divider />
           <ListItem>
-            <Link to="/gallery" style={{ textDecoration: 'none', color: 'white' }} onClick={handleDrawerClose}>GALLERY</Link>
+            <Link to="/galleryMain" style={{ textDecoration: 'none', color: 'white' }} onClick={handleDrawerClose}>GALLERY</Link>
           </ListItem>
           <Divider />
           <ListItem>

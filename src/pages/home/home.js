@@ -20,7 +20,7 @@ function Home() {
         <>
             {/*<motion.div className="homeTwoGrid" initial={{ width: 0 }} animate={{ width: "100%" }} exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}>*/}
 
-            <Grid container className="gridContainer" sx={{ backgroundColor: 'transparent', margin: '100px', padding: '0', display: 'flex' }}>
+            <Grid container className="gridContainer" sx={{ backgroundColor: 'transparent', margin: '0px', padding: '0', display: 'flex' }}>
 
 
                 <Grid item className="homeTwoGrid" xs={10} sx={{}}>

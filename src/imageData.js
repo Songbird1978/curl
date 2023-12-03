@@ -34,183 +34,215 @@ const LiveImages = [
 
     {
         id: 0,
-        imageUrl: volumeOne,
-        alt: "Franck Amendola with CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeOne,
+        thumbnail: volumeOne,
+        description: "Franck Amendola with CURL at Le Volume, Nice",
+
     },
     {
         id: 1,
-        imageUrl: volumeTwo,
-        alt: "Hayley Alker with CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeTwo,
+        thumbnail: volumeTwo,
+        description: "Hayley Alker with CURL at Le Volume, Nice",
+
     },
     {
         id: 2,
-        imageUrl: volumeThree,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeThree,
+        thumbnail: volumeThree,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 3,
-        imageUrl: volumeFour,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeFour,
+        thumbnail: volumeFour,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 4,
-        imageUrl: volumeFive,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeFive,
+        thumbnail: volumeFive,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 5,
-        imageUrl: volumeSix,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeSix,
+        thumbnail: volumeSix,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 6,
-        imageUrl: volumeSeven,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeSeven,
+        thumbnail: volumeSeven,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 7,
-        imageUrl: volumeEight,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeEight,
+        thumbnail: volumeEight,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 8,
-        imageUrl: volumeNine,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeNine,
+        thumbnail: volumeNine,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 9,
-        imageUrl: volumeNine,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeNine,
+        thumbnail: volumeNine,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 10,
-        imageUrl: volumeTen,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeTen,
+        thumbnail: volumeTen,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 11,
-        imageUrl: volumeTen,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeTen,
+        thumbnail: volumeTen,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 12,
-        imageUrl: volumeEleven,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeEleven,
+        thumbnail: volumeEleven,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 13,
-        imageUrl: volumeTwelve,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeTwelve,
+        thumbnail: volumeTwelve,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 14,
-        imageUrl: volumeThirteen,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeThirteen,
+        thumbnail: volumeThirteen,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 15,
-        imageUrl: volumeFourteen,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeFourteen,
+        thumbnail: volumeFourteen,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 16,
-        imageUrl: volumeFifteen,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeFifteen,
+        thumbnail: volumeFifteen,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 17,
-        imageUrl: volumeSixteen,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeSixteen,
+        thumbnail: volumeSixteen,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 18,
-        imageUrl: volumeSeventeen,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: volumeSeventeen,
+        thumbnail: volumeSeventeen,
+        description: "CURL at Le Volume, Nice",
+
     },
     {
         id: 19,
-        imageUrl: eighteen,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: eighteen,
+        thumbnail: eighteen,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 20,
-        imageUrl: twenty,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twenty,
+        thumbnail: twenty,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 21,
-        imageUrl: twentyOne,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twentyOne,
+        thumbnail: twentyOne,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 22,
-        imageUrl: twentyTwo,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twentyTwo,
+        thumbnail: twentyTwo,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 23,
-        imageUrl: twentyThree,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twentyThree,
+        thumbnail: twentyThree,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 24,
-        imageUrl: twentyFour,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twentyFour,
+        thumbnail: twentyFour,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 25,
-        imageUrl: twentyFive,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twentyFive,
+        thumbnail: twentyFive,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 26,
-        imageUrl: twentySix,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twentySix,
+        thumbnail: twentySix,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 27,
-        imageUrl: twentySeven,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twentySeven,
+        thumbnail: twentySeven,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 28,
-        imageUrl: twentyEight,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twentyEight,
+        thumbnail: twentyEight,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 29,
-        imageUrl: twentyNine,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
-    },  {
+        original: twentyNine,
+        thumbnail: twentyNine,
+        description: "CURL at Le Volume, Nice",
+
+    }, {
         id: 30,
-        imageUrl: thirty,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: thirty,
+        thumbnail: thirty,
+        description: "CURL at Le Volume, Nice",
+
     }, {
         id: 31,
-        imageUrl: thirtyOne,
-        alt: "CURL at Le Volume, Nice",
-        maxHeight: "400px",
+        original: thirtyOne,
+        thumbnail: thirtyOne,
+        description: "CURL at Le Volume, Nice",
+
     },
 
 ];

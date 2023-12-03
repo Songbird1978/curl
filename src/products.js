@@ -5,7 +5,7 @@ import shapeshifters from './assets/shapeshifters.jpeg';
 import SouthSpecific from './assets/SouthSpecific.png';
 import channelNoir from './assets/ChannelNoir.png';
 import Inner from './assets/Inner.png';
-import ultimateStation from './assets/ultimateStation.png';
+//import ultimateStation from './assets/ultimateStation.png';
 import ShapeshifterSingle from './assets/ShapeshifterSingle.png';
 
 
@@ -139,24 +139,6 @@ export const PRODUCTS = [
 },
 {
     id: 7,
-    productName: "Ultimate Station",
-    productImage: ultimateStation,
-    productDescription: "record from CURL",
-    label: "EMI France",
-    yearReleased: "2002",
-    linksLabel: "https://d-monic.bandcamp.com/album/we-are-complex",
-    linksShop: "https://www.manicdepression.fr/en/label/d-monic/",
-    linksListen: "ha",
-    price: 100.00,
-    src:"https://open.spotify.com/embed/album/6NkzAyguw0zGhgnLcBbVvn?utm_source=generator&theme=0", 
-    width:"100%",
-    height:"500px", 
-    allow:"autoplay", 
-    loading:"lazy",    
-    borderRadius:"12px",
-},
-{
-    id: 8,
     productName: "Shapeshifters Single",
     productImage: ShapeshifterSingle,
     productDescription: "record from CURL",

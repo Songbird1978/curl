@@ -1,4 +1,6 @@
-@import-normalise;
+@import '~react-image-gallery/styles/css/image-gallery.css';
+
+
 
 
 @font-face {
