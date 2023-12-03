@@ -1,12 +1,16 @@
 import React from 'react';
 import CustomGallery from '../../components/customGallery/customGallery.js'; // Adjust the import path based on your project structure
-import LiveImages from '../../imageData.js';
+import PressImages from '../../pressData.js';
+import '../../components/customGallery/customGallery.css';
 //import { Outlet } from 'react-router-dom';
 
 const PressGallery = () => {
-    return <CustomGallery images={LiveImages} title="Live Gallery" />
-    
+    return (
+        <div className="">
+            <CustomGallery images={PressImages} title="Press Gallery" />
+        </div>
 
+    );
 };
 
 export default PressGallery;

@@ -2,16 +2,12 @@ import React from 'react';
 import './gallery.css';
 import Grid from '@mui/material/Grid';
 import { Link } from "react-router-dom";
-//import { motion } from "framer-motion";
 import '../../index.css';
-//import LiveSlider from '../../components/simpleSlider/liveSlider';
-//import { LiveImages } from '../../components/simpleSlider/imageData.js';
 import frenchTV from '../../assets/liveImages/French TV.jpg';
 import { motion } from 'framer-motion';
 import curlOne from '../../assets/pressImages/cool pic2.jpg';
 import wilThree from '../../assets/behindTheScenes/wil3.jpg';
 import boardsStill from '../../assets/behindTheScenes/CURL VIDEO STILL.jpg';
-
 import { Outlet } from 'react-router-dom';
 
 
@@ -41,17 +37,18 @@ function GalleryMain() {
 
 
                     <Grid item className="galleryItem" xs={12} sm={6} md={3} >
-                        <motion.div whileHover={{ scale: 0.8 }}
-                            transition={{ ease: "easeOut" }}
-                            whileTap={{ scale: 0.9 }}
-                            animate={{ x: 100 }}
-                            initial={{ x: 0 }}>
-                            <Link to="/pressGallery.js" className="galleryLiveLink">
+                        <Link to="/pressGallery" className="galleryLiveLink">
+                            <motion.button whileHover={{ scale: 0.8 }}
+                                transition={{ ease: "easeOut" }}
+                                whileTap={{ scale: 0.9 }}
+                                animate={{ x: 100 }}
+                                initial={{ x: 0 }}>
+
                                 <div className="headingGallery">PRESS</div>
                                 <img src={curlOne} className="buttonImage" alt="live at the Black Box">
                                 </img>
-                            </Link>
-                        </motion.div>
+                            </motion.button>
+                        </Link>
                     </Grid>
 
                     <Grid item className="galleryItem" xs={12} sm={6} md={3} sx={{}}>

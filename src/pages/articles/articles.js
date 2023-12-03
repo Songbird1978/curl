@@ -1,14 +1,12 @@
 import React from 'react';
 import { Outlet } from 'react-router-dom';
-
 //import Home from './pages/home/home';
 //import Under from './pages/under/under';
 import './articles.css';
 import Grid from '@mui/material/Grid';
 import { motion } from "framer-motion";
 import '../../index.css'
-import Article from '../../components/article/article';
-
+import Article from './article';
 
 function Articles() {
 

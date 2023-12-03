@@ -1,5 +1,6 @@
 .discContainer {
     position: absolute;
+    
     z-index: -1;
     margin-bottom: 100px !important;
 
@@ -14,30 +15,25 @@
 
 }
 
-.products {
+.Products {
 
-    display: flex;
-    justify-content: space-around;
     border-style: solid;
-    border-color: red;
+    border-color: salmon;
+    width: 350px;
+    height: 350px;
 
 }
 
 .imageProduct {
-    margin-top: 50px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    width: 300px;
-    height: 300px;
-    padding: 0px;
+  
+    width: 200px;
+    height: 200px;
 
 }
 
 .saveButton {
 
     height: 100px;
-    padding: 60px;
     border-style: none;
     background-color: transparent;
 

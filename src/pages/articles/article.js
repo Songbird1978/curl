@@ -1,12 +1,10 @@
 import React from 'react';
 import Card from '@mui/material/Card';
 import Grid from '@mui/material/Grid';
-import data from '../../Data.json';
+import data from './Data.json';
 import { Link, Outlet } from 'react-router-dom';
 import "../../index.css";
-import "../article/article.css";
-
-
+import "./article.css";
 
 
 function Article() {
@@ -33,7 +31,6 @@ function Article() {
                   <p className="articleDescription" >{article.description}</p>
                 </div>
                
-
               </Card>
             </Link>
 
