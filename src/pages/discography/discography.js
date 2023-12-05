@@ -28,7 +28,7 @@ function Discography() {
 
             {PRODUCTS.map((albumInfo) => (
                 
-                    <Grid item xs={12} sm={6} md={3} className="Products" key={albumInfo.id} >
+                    <Grid item xs={12} sm={6} md={4} lg={3} xl={2} className="Products" key={albumInfo.id} >
 
                         <motion.button
                             key={albumInfo.id}
