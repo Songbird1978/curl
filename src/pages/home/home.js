@@ -24,7 +24,7 @@ function Home() {
 
 
                 <Grid item className="homeTwoGrid" xs={10} sx={{}}>
-                    <h1 className="centerLogo">CURL</h1>
+                   
                     
                 </Grid>
      

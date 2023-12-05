@@ -34,5 +34,11 @@ link:hover {
 }
 
 
+@media screen and (min-width: 2000px) {
+.css-1bbt130-MuiContainer-root {
+    max-width: none !important; 
+}
+
+}
 
 

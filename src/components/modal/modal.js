@@ -52,11 +52,22 @@ const Modal = ({ handleClose, isOpen, albumInfo }) => {
 
 
                 <div className="modalContent">
-                    <h2>{albumInfo.productName}</h2>
-
+                    <ul className="contentList">                   
+                        <li>
+                         <h2>{albumInfo.productName}</h2>
+                         </li>
+                         <li>
                     <p>{albumInfo.label}</p>
-
+                    
+                    </li>
+                    <li>
                     <p>{albumInfo.yearReleased}</p>
+                    </li>
+                    </ul>
+
+                </div>
+
+                <div className="musicPlayer">
 
                     <iframe
                     className="musicPlayer"
@@ -68,22 +79,50 @@ const Modal = ({ handleClose, isOpen, albumInfo }) => {
                     allowtransparency="true"
                     pictureinpicture="true"
                     ></iframe>
+                </div>
+                <div className="buttonList">
+                    <br></br><br></br>
 
-                    <br></br><br></br>
-                    <Link className="linkInfo">{albumInfo.linksLabel}</Link>
-                    <br></br><br></br>
-                    <Link className="linkInfo">{albumInfo.linksShop}</Link>
-                    <br></br><br></br>
-                    
-                    
+                    <ul className="buttonList">
+                        <li>
+                    <Link className="linkInfo">
+                    <motion.button 
+                    className="closeButton" 
+                    to="{albumInfo.linksLabel}"
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }} 
+                    > Label   
+                    </motion.button>
+                    </Link>
+                    </li>
+
+                    <li>
+                    <Link className="linkInfo">
+                    <motion.button 
+                    className="closeButton" 
+                    onClick={albumInfo.linksShop}
+                    whileHover={{ scale: 1.1 }}
+                    whileTap={{ scale: 0.9 }} 
+                    > Shop  
+                    </motion.button>
+                    </Link>
+                    </li>
+
+                    <li>
+                    <Link className="linkInfo">
                     <motion.button 
                     className="closeButton" 
                     onClick={handleClose}
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.9 }} 
                     >Close
-                   
                     </motion.button>
+                    </Link>
+                    </li>
+                    </ul>
+                   
+
+                   
                    
                 </div>
             </motion.div>

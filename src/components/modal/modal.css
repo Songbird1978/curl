@@ -22,18 +22,33 @@
 }
 
 .modalContent {
-    display: block;
+    display: flex;
     justify-content: center;
-    align-items:start;
+    align-items:center;
     text-decoration: none;
     color: white;
     font-family: 'Gotham-book';
     padding: 5px;
+    width: 100%;
 
+}
+
+.contentList {
+    list-style: none;
+    width: 100%;
+}
+
+.buttonList {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
 }
 
 .musicPlayer {
     border-style: none;
+    width: 100%;
 }
 
 .closeButton {
@@ -44,6 +59,7 @@
     background-color: salmon;
     padding: 20px;
     font-size:large;
+    width: 100px;
 }
 
 .linkInfo {

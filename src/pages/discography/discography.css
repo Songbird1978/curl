@@ -3,16 +3,18 @@
 
 .discContainer {
 
-    margin-top: 80px !important;
-    margin-left: 40px !important;
-    margin-right: 10px !important;
-    margin-bottom: 10px !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
     position: absolute;
     justify-content: center;
     width: 100% !important;
     align-items: center;
+    border-style: solid;
     height: 100%;
     z-index: -1;
+    padding: 20px;
 }
 
 .imageProduct {
@@ -21,4 +23,5 @@
     height: 250px;
 
 }
+
 
