@@ -1,17 +1,23 @@
 .discContainer {
     position: absolute;
-    
+    width: 100%;
+    height: 100%;
     z-index: -1;
-    margin-bottom: 100px !important;
 
 }
 
 .MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 discContainer css-a5rdam-MuiGrid-root {
 
     position: absolute;
-    margin-top: 100px !important;
-    width: 100%;
     height: 100%;
+
+}
+
+.css-1ld3b9g-MuiGrid-root {
+
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    width: 100% !important;
 
 }
 
@@ -19,13 +25,12 @@
 
     border-style: solid;
     border-color: salmon;
-    width: 350px;
-    height: 350px;
+
 
 }
 
 .imageProduct {
-  
+
     width: 200px;
     height: 200px;
 
@@ -37,9 +42,4 @@
     border-style: none;
     background-color: transparent;
 
-}
-
-.css-mhc70k-MuiGrid-root {
-
-    margin-top: -50px !important;
 }

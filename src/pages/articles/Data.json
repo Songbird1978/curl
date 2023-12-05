@@ -1,13 +1,13 @@
 [
     {
         "id": 0,
-        "title": "Who is Anderson?",
+        "title": "Anderson WHAT?",
         "description": "Is he gunna save it?",
         "info": "It has been 7 years since the release of the third album from CURL 'Shapeshifters' but the question you have to ask is, 'Who is Anderson? The worst superhero we have ever met. Collaborating with this guy, has slowed development for the creation of the forthcoming, 2024 album, 'Interferometry'. In 1940, the British Government asked the people to build Anderson Shelters in their gardens as protection from the Blitz. 'A feelgood factor', 'Do your bit', yet, completely useless, just like our superhero associate. The new CURL single 'Anderson Shelter' will help you understand how CURL have been recovering from their self-inflicted bombing raids.",
-        "image": "",
+        "image": "../../assets/AndersonA.jpeg",
         "imageName": "Anderson Shelter by CURL",
         "copyright": "Copyright Control CURL",
-        "link": "/anderson.js",
+        "link": "/anderson",
         "className": "Anderson Shelter",
         "xs": 12,
         "sm": 6
@@ -20,7 +20,7 @@
         "image": "",
         "imageName": "Digging their Own Grave Mistakes by Jose Canepa",
         "copyright": "Copyright Control Jose Canepa",
-        "link": "/brexit.js",
+        "link": "",
         "className": "EmergencyBrexit",
         "xs": 12,
         "sm": 6
