@@ -1,5 +1,6 @@
 .discContainer {
     position: absolute;
+ 
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -8,8 +9,9 @@
 
 .MuiGrid-root MuiGrid-container MuiGrid-spacing-xs-1 discContainer css-a5rdam-MuiGrid-root {
 
-    position: absolute;
+    display: flex;
     height: 100%;
+    justify-content: center;
 
 }
 
@@ -18,13 +20,14 @@
     margin-top: 0px !important;
     margin-left: 0px !important;
     width: 100% !important;
+    padding: 20px !important;
 
 }
 
 .Products {
 
-    border-style: solid;
-    border-color: salmon;
+ display: flex; 
+ justify-self: center;
 
 
 }
