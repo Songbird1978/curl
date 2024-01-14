@@ -18,18 +18,33 @@
 .centerLogo {
     display: flex;
     justify-content:center;
-    border: 0;
-    margin-top: 150px;
-    align-items: center;
-    font-size: 150px ;
-    color: salmon;
+    border-style: solid;
+    margin-top: 120px;
+    align-items: flex-start;
+    font-size: 40px ;
+    color: rgb(248, 218, 161);
     text-shadow: -10px -20px 20px #3c2e2e;
-    font-family: europa-bold-webfont;
+    font-family: CaslonTitling;
+    text-align:center;
+    text-size-adjust:initial;
+    text-overflow:clip;
+    background-image: url('../../assets/AndersonA.jpeg');
+    height: 500px;
+    width: 100%;
+    background-size:cover;
+    object-fit:cover;
+    object-position:center;
+    opacity: 80%;
+    
 }
 
 .css-1dan5yl-MuiGrid-root {
     margin: 0 !important;
 
+}
+
+.homeLink {
+    text-decoration: none;
 }
 
 .center {

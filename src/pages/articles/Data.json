@@ -1,10 +1,10 @@
 [
     {
         "id": 0,
-        "title": "Anderson WHAT?",
+        "title": "Anderson Who?",
         "description": "Is he gunna save it?",
         "info": "It has been 7 years since the release of the third album from CURL 'Shapeshifters' but the question you have to ask is, 'Who is Anderson? The worst superhero we have ever met. Collaborating with this guy, has slowed development for the creation of the forthcoming, 2024 album, 'Interferometry'. In 1940, the British Government asked the people to build Anderson Shelters in their gardens as protection from the Blitz. 'A feelgood factor', 'Do your bit', yet, completely useless, just like our superhero associate. The new CURL single 'Anderson Shelter' will help you understand how CURL have been recovering from their self-inflicted bombing raids.",
-        "image": "../../assets/AndersonA.jpeg",
+        "image": "/assets/AndersonA.jpeg",
         "imageName": "Anderson Shelter by CURL",
         "copyright": "Copyright Control CURL",
         "link": "/anderson",
@@ -14,10 +14,10 @@
     },
     {
         "id": 1,
-        "title": "Digging their Own Grave Mistakes",
-        "description": "There are certain times at which running your washing machine or tumble dryer can be more expensive.",
+        "title": "Shapeshifters",
+        "description": "Beth Shalom records release Shapeshifters vinyl",
         "info": "The most expensive time for you to wash or dry your clothes is between 4pm and 7pm, so try to avoid. You could also try washing less frequently, washing with colder temperature settings and skiping the ironing. SUPERTIP - Nobody likes ironing though do we? ",
-        "image": "",
+        "image": "https://f4.bcbits.com/img/a0187169959_10.jpg",
         "imageName": "Digging their Own Grave Mistakes by Jose Canepa",
         "copyright": "Copyright Control Jose Canepa",
         "link": "",

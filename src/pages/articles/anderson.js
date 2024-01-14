@@ -3,7 +3,6 @@ import { Outlet } from "react-router-dom";
 import './articles.css';
 import '../../index.css';
 import { motion } from "framer-motion";
-import "../biography/biography.css";
 import '../../index.css';
 import data from './Data.json';
 
@@ -21,13 +20,15 @@ function Anderson() {
 
         <motion.div className="containerConstruction" initial={{ width: 0 }} animate={{ width: "100%" }} exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}>
 
-            <div className="mxnifesto" >
+            <div className="mxnifesto" style={{backgroundImage: 'url({targetedArticle.image})'}}>
                
-                <h1 key={targetedArticle.id} className="title">{targetedArticle.title}</h1>
-                <h3>{targetedArticle.description}</h3>
-                <img src={targetedArticle.image} alt={targetedArticle.imageName}></img>
-                <p className="manifestoParagraph">{targetedArticle.info}</p>
+                <h1 key={targetedArticle.id} className="title">{targetedArticle.title}    </h1>
+                <h3 className="title">{targetedArticle.description}</h3>
+            
+                <p className="manifestoParagraph">{targetedArticle.info}
                 <h5>{targetedArticle.copyright}</h5>
+                </p>
+              
             </div>
 
             <Outlet />

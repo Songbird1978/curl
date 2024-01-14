@@ -26,9 +26,12 @@
 
 /* Content */
 .articleImage {
-    display: flex;
+    display: absolute;
     justify-content: center;
     align-items: center;
+    height: auto;
+    width: 100%;
+    z-index: -200;
     color: gray;
  
 }
@@ -63,4 +66,12 @@
 
 .articleLink {
     text-decoration: none;
+}
+
+.mxnifesto {
+  
+    object-fit: contain;
+    background-position: center;
+    filter: brightness (10%);
+
 }

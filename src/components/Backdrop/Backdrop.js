@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import '../Backdrop/backdrop.css';
 
-const Backdrop = ({ children, onClick }) => {
+const Backdrop = ({ parent, children, onClick }) => {
 
 return (
 
@@ -13,7 +13,7 @@ return (
     animate={{ opacity: 1}}
     exit={{ opacity: 0 }}
     >
-
+    {parent}
     {children}
     </motion.div>
 );
