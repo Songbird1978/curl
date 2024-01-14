@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 //import Home from './pages/home/home';
 //import Under from './pages/under/under';
 import './home.css';
@@ -31,11 +31,11 @@ function Home() {
             <Grid container className="gridContainer" sx={{ backgroundColor: 'transparent', margin: '0px', padding: '0', display: 'flex' }}>
 
 
-                <Grid item className="homeTwoGrid" xs={10} sx={{}}>
+               {/* <Grid item className="homeTwoGrid" xs={10} sx={{}}>
                    <Link to={targetedArticle.link} className="homeLink"> 
                   <div className="centerLogo"> {targetedArticle.title}</div>
                   </Link>
-                </Grid>
+    </Grid> */}
      
 
             </Grid >
