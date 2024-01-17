@@ -10,10 +10,14 @@
     font-family: 'europa-bold-webfont';
     font-size: medium;
     margin-left: 50px !important;
-    margin-top: 0px !important;
+    margin-top: 50px !important;
     border-radius: 2%;
     opacity: 50%;
    
+}
+
+.navBar {
+    margin-top: 20px;
 }
 
 #drawerLogo {
@@ -21,7 +25,8 @@
 }
 
 .MuiToolbar-gutters, .MuiToolbar-root {
-    padding: 10;
+    padding: 55px;
+    margin-left: 15px;
     margin-right: 0;
 }
 
@@ -32,7 +37,6 @@ link {
 link:hover {
     color: salmon;
 }
-
 
 @media screen and (min-width: 2000px) {
 .css-1bbt130-MuiContainer-root {

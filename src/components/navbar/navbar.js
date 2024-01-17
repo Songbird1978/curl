@@ -70,7 +70,6 @@ function Navbar() {
   const theme = useTheme();
   const [open, setOpen] = useState(false);
 
-
   const handleDrawerOpen = () => {
     setOpen(true);
   };
@@ -85,17 +84,21 @@ function Navbar() {
   return (
     <Box sx={{ display: 'flex', backgroundColor: 'transparent', marginTop: '0', height: '0vh' }}>
       <CssBaseline />
-      <AppBar position="fixed" open={open} style={{ height: '0vh', backgroundColor: "transparent", color: "transparent" }}>
+      <AppBar position="fixed" open={open} style={{ height: '0vh', className: "navBar", backgroundColor: "transparent", color: "transparent" }}>
         <Toolbar sx={{ backgroundColor: "transparent", opacity: "100%" }}>
           <IconButton
             color="transparent"
             hover="none"
+            className="burger"
             aria-label="open drawer"
             onClick={handleDrawerOpen}
             edge="start"
+            size="large"
             sx={{ mr: 2, ...(open && { display: 'none' }) }}
           >
-            <MenuIcon />
+            <MenuIcon 
+            size="large"
+            className="burger"/>
           </IconButton>
           <Logo />
           <Contact />
