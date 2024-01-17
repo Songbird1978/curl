@@ -2,14 +2,15 @@
 
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 50px;
+    margin-right: 20px;
     float: right;
     list-style: none;
 }
 
 .icon {
 
-    height: 23px;
+    height: 30px;
     color: salmon;
     opacity: 80%;
 

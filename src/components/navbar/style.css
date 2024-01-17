@@ -2,6 +2,7 @@
 .icon { 
     color: grey;
     width: 40px;
+   
 
 }
 
@@ -17,7 +18,7 @@
 }
 
 .navBar {
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 #drawerLogo {
@@ -25,7 +26,7 @@
 }
 
 .MuiToolbar-gutters, .MuiToolbar-root {
-    padding: 55px;
+    padding: 0px;
     margin-left: 15px;
     margin-right: 0;
 }

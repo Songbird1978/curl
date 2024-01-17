@@ -1,9 +1,9 @@
 
 .backdrop {
     position: absolute !important;
-    margin-top: 0 !important;
-    margin-left: 0 !important;
-    height: 100vw;
+    margin-top: -50px !important;
+    margin-left: 0px !important;
+    height: 500vw;
     width: 100vw;
     background: #000000e4;
     display: flex;
