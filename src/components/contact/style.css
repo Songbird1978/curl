@@ -30,7 +30,7 @@
 
 @media screen and (max-width: 480px) {
     .socialList {
-        margin-top: 160px !important;
+        margin-top: 250px !important;
         display: block;
         justify-content: right;
     }
