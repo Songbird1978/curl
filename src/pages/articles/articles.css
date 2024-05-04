@@ -10,6 +10,7 @@
    
     display: block;
     justify-content: center;
+
     margin-left: 60px;
     margin-right: 60px;
     white-space: pre-line;
@@ -24,5 +25,9 @@
     justify-content: center;
     line-height: 1.5rem;
     text-size-adjust: none;
+}
+
+.center {
+    margin-top: 70px;
 }
 

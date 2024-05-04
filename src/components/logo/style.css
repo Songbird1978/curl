@@ -2,19 +2,20 @@
     display: flex;
     justify-content: center;
     background-color: none !important;
+    height: 50px;
+    width: 50;
     z-index: 2;
     margin-top: 50px;
     margin-left: 20px;
     color: grey;
     font-family: 'europa-bold-webfont';
-    font-size: 30px;
     text-decoration: none;
    
 }
 
 .logoLink {
     text-decoration: none;
-    color: salmon;
+    color: silver;
     background-color: none;
     text-shadow: -1px -2px 5px #3c2e2e;
 }

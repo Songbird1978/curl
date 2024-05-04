@@ -11,7 +11,7 @@
 .icon {
 
     height: 30px;
-    color: salmon;
+    color: silver;
     opacity: 80%;
 
 }
@@ -31,7 +31,7 @@
 @media screen and (max-width: 480px) {
     .socialList {
         margin-top: 235px !important;
-        margin-right: 10px !important;
+        margin-right: 5px !important;
         display: block;
         justify-content: right;
     }

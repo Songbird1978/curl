@@ -3,10 +3,10 @@
     width: clamp(50%, 700px, 90%);
     height: min (50%, 150px);
     justify-content: left;
-    background-color: #467367;
+    background-color: #051438 ;
     border-style: solid;
     border-radius: 12px;
-    border-color: salmon;
+    border-color: silver;
     opacity: 80%; 
     height: auto;
     margin-top: 350px;
@@ -53,10 +53,10 @@
 
 .closeButton {
     border-style: solid;
-    border-color: salmon; 
+    border-color: silver; 
     border-radius: 12px;
     color: white;
-    background-color: salmon;
+    background-color: silver;
     padding: 20px;
     font-size:large;
     width: 100px;
@@ -65,5 +65,5 @@
 .linkInfo {
 
     text-decoration: none;
-    color: salmon;
+    color: silver;
 }

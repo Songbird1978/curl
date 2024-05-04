@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css";
-import video from '../../assets/galaxiesvideo.mp4';
+import video from '../../assets/galaxyvideo.mp4';
 //import Audio from '../audio';
 import { Link } from "react-router-dom";
 

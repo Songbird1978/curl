@@ -110,7 +110,7 @@ function Navbar() {
           flexShrink: 0,
           '& .MuiDrawer-paper': {
             width: drawerWidth,
-            backgroundColor: '#467367 ',
+            backgroundColor: '#051438 ',
             opacity: '90%',
             boxSizing: 'border-box',
 

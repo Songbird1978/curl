@@ -6,7 +6,7 @@ import '../../components/customGallery/customGallery.css';
 
 const PressGallery = () => {
     return (
-        <div className="">
+        <div className="pressGallery">
             <CustomGallery images={PressImages} title="Press Gallery" />
         </div>
 
