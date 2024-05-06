@@ -14,7 +14,7 @@ function Articles() {
         <>
             <motion.div className="" initial={{ width: 0 }} animate={{ width: "100%" }} exit={{ x: window.innerWidth, transition: { duration: 0.1 } }}>
 
-                <Grid container className="" sx={{ display: 'flex' }}>
+                <Grid container className="newsGrid" sx={{ display: 'flex' }}>
                     <Outlet />
 
                     <Grid item className="homeTwoGrid" xs={1} sx={{ backgroundColor: 'transparent', height: '10vh' }} ></Grid>

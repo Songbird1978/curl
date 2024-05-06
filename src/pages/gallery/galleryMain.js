@@ -21,9 +21,9 @@ function GalleryMain() {
 
                     <Grid item className="galleryItem" xs={12} sm={6} md={3}>
                         <Link to="/liveGallery" className="galleryLiveLink">
-                            <motion.button whileHover={{ scale: 0.8 }}
+                            <motion.button whileHover={{ scale: 0.9 }}
                                 transition={{ ease: "easeOut" }}
-                                whileTap={{ scale: 0.9 }}
+                                whileTap={{ scale: 1.1 }}
                                 animate={{ x: 100 }}
                                 initial={{ x: 0 }}>
 
@@ -38,9 +38,9 @@ function GalleryMain() {
 
                     <Grid item className="galleryItem" xs={12} sm={6} md={3} >
                         <Link to="/pressGallery" className="galleryLiveLink">
-                            <motion.button whileHover={{ scale: 0.8 }}
+                            <motion.button whileHover={{ scale: 0.9 }}
                                 transition={{ ease: "easeOut" }}
-                                whileTap={{ scale: 0.9 }}
+                                whileTap={{ scale: 1.1 }}
                                 animate={{ x: 100 }}
                                 initial={{ x: 0 }}>
 
@@ -51,10 +51,10 @@ function GalleryMain() {
                         </Link>
                     </Grid>
 
-                    <Grid item className="galleryItem" xs={12} sm={6} md={3} sx={{}}>
-                        <motion.div whileHover={{ scale: 0.8 }}
+                    <Grid item className="galleryItem" xs={12} sm={6} md={3} >
+                        <motion.div whileHover={{ scale: 0.9 }}
                             transition={{ ease: "easeOut" }}
-                            whileTap={{ scale: 0.9 }}
+                            whileTap={{ scale: 1.1 }}
                             animate={{ x: 100 }}
                             initial={{ x: 0 }}>
                             <Link to="/studioGallery.js" className="galleryLiveLink">
@@ -66,9 +66,9 @@ function GalleryMain() {
                     </Grid>
 
                     <Grid item className="galleryItem" xs={12} sm={6} md={3} sx={{}}>
-                        <motion.div whileHover={{ scale: 0.8 }}
+                        <motion.div whileHover={{ scale: 0.9 }}
                             transition={{ ease: "easeOut" }}
-                            whileTap={{ scale: 0.9 }}
+                            whileTap={{ scale: 1.1 }}
                             animate={{ x: 100 }}
                             initial={{ x: 0 }}>
                             <Link to="/behindTheScenes.js" className="galleryLiveLink">

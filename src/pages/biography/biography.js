@@ -3,6 +3,7 @@ import React from "react";
 import "./biography.css";
 import '../../index.css';
 import { motion } from "framer-motion";
+import biographyBand from "../../assets/pressImages/cool pic2.jpg";
 //import Container from '@mui/material/Container';
 
 
@@ -13,28 +14,10 @@ function Biography() {
 
             <div className="mxnifesto" >
                 <h1 className="heading">BIOGRAPHY</h1>
+                <img src={biographyBand} alt="CURL in Brighton" width="100%" className="biographyImage"/>
                 <p className="manifestoParagraph">{
 
                     `
-It has been seven years since the release of the third album from CURL 'Shapeshifters' but the question you have to ask is, 'Who is Anderson?'
-
-The worst superhero we have ever met. Collaborating with this guy, has slowed development for the creation of the forthcoming, 2024 album, 'Interferometry'. 
-
-In 1940, the British Government asked the people to build Anderson Shelters in their gardens as protection from the Blitz. "A feelgood factor", "Do your bit", yet, completely useless, just like our superhero associate. The new CURL single 'Anderson Shelter' will help you understand how CURL have been recovering from their self-inflicted bombing raids.
-
-                    CURL will create music. 
-
-Wholesome pulsating, magnetic music.
-
-Music for souls,
-
-to question our existence,
-
-to illustrate our human insignificance,
-
-to sooth hearts.
-
-------------------------------
 
 Curl were initially an Electronic project started by French Producer and Guitarist Frank Amendola (Corpus Delicti) at the start of the Millenium.
 
