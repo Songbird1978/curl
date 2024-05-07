@@ -1,10 +1,16 @@
 .galleryGrid {
 
-    display: flex;
-    z-index: 5000;
-    width: 100%;
-    justify-content: left;
-    margin-top: 120px;
+    margin-top: 50px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    position: absolute;
+    justify-content: center;
+    width: 90% !important;
+    align-items: center;
+    height: 100%;
+    z-index: -1;
+    padding: 20px;
    
 }
 
@@ -37,7 +43,6 @@
 .buttonImage {
     width: 250px;
     height: 250px;
-    
     border-style: solid;
     border-color:silver;
     object-fit: scale-down;
